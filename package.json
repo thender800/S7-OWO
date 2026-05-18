@@ -1,0 +1,22 @@
+{
+  "name": "multi-client-proxy-bot",
+  "version": "1.0.0",
+  "description": "Multi-token client with proxy support, channel config, and auto messaging system",
+  "main": "onliner.js",
+  "type": "module",
+  "scripts": {
+    "start": "node onliner.js",
+    "dev": "node onliner.js"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.6.1",
+    "dotenv": "^16.4.5",
+    "https-proxy-agent": "^7.0.4",
+    "socks-proxy-agent": "^8.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "your_name",
+  "license": "MIT"
+}
