@@ -123,7 +123,7 @@ async function startClients() {
 
       async function sendAutoOhCycle() {
         while (true) {
-          const totalMessages = randomBetween(1, 100);
+          const totalMessages = randomBetween(1, 80);
 
           console.log(
             `[AUTO OH] ${key} starting ${totalMessages} messages in channel ${assignedChannelId}`
@@ -134,7 +134,7 @@ async function startClients() {
               let delay;
 
               do {
-                delay = randomBetween(10000, 20000);
+                delay = randomBetween(15000, 30000);
               } while (Date.now() + delay === lastSendTime);
 
               await wait(delay);
